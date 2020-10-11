@@ -1,0 +1,36 @@
+Programiz
+
+
+Search Programiz
+C Program to Add Two Integers
+C Program to Add Two Integers
+
+In this example, the user is asked to enter two integers. Then, the sum of these two integers is calculated and displayed on the screen.
+
+To understand this example, you should have the knowledge of the following C programming topics:
+
+C Data Types
+C Variables, Constants and Literals
+C Input Output (I/O)
+C Programming Operators
+Program to Add Two Integers
+
+#include <stdio.h>
+int main() {    
+
+    int number1, number2, sum;
+    
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+
+    // calculating sum
+    sum = number1 + number2;      
+    
+    printf("%d + %d = %d", number1, number2, sum);
+    return 0;
+}
+Output
+
+Enter two integers: 12
+11
+12 + 11 = 23
